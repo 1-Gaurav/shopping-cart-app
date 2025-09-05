@@ -1,0 +1,103 @@
+
+.containers{
+    display: flex;
+    border: 2px solid aliceblue;
+    background-color: whitesmoke;
+}
+#search{
+    border-radius: 10px;
+    margin: 15px 0 10px 40px;
+    width: 50%;
+    height: 40px;
+}
+.d-flex{
+    width: 600px;
+    height: 40px;
+    margin: 20px 20px 20px 200px;
+}
+.containers>a{
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.text{
+    display: flex;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    border: 2px solid aliceblue;
+    margin: 10px 10px 10px 10px;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.nav img{
+   height: 80px;
+   width: 80px;
+}
+.full{
+    border: 2px solid aliceblue;
+    margin: 10px 10px 10px 10px;
+}
+.full img{
+    width: 100%;
+}
+#phone{
+   margin: 10px;  
+}
+#phone img{
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    
+}
+.furniture{
+    margin: 10px;
+    border: 2px solid aliceblue;
+}
+.furniture img{
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+}
+#images{
+    display: grid;
+    border: 2px solid aliceblue;
+    gap: 10px;
+    margin: 10px;
+    grid-template-columns: repeat(3,auto);
+}
+#images img{
+    width: 100%;
+}
+.row{
+    margin: 2px;
+}
+.row img{
+    height: 200px;
+}
+#login:hover .dropdown-menu {
+  display: block;
+  padding: 20px;
+}
+button{
+    border: none;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+
+
+
+
